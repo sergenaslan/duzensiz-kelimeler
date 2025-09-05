@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İngilizce Düzensiz Fiiller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Düzensiz Fiil Ezberi</h1>
+
+        <div class="info">
+            <span id="infoText">0/0</span>
+        </div>
+
+        <div class="verb-display">
+            <button id="prevBtn" class="nav-btn">&larr; Geri</button>
+            <div id="verbContainer">
+                <!-- Fiil bilgileri buraya yüklenecek -->
+            </div>
+            <button id="nextBtn" class="nav-btn">İleri &rarr;</button>
+        </div>
+
+        <div class="category-buttons">
+            <button id="showAllBtn" class="category-btn active" onclick="filterVerbs('all')">Bütün Kelimeler</button>
+            <button id="showLearnedBtn" class="category-btn" onclick="filterVerbs('learned')">Ezberlenen</button>
+            <button id="showLearningBtn" class="category-btn" onclick="filterVerbs('learning')">Ezberlenmekte</button>
+            <button id="showPendingBtn" class="category-btn" onclick="filterVerbs('pending')">Bekleyen</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
