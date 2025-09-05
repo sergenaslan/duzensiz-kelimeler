@@ -1,4 +1,4 @@
-const defaultVerbs = [
+const defaultVerbsVeriler = [
     { 
         base: "begin", 
         past: "began", 
@@ -159,24 +159,6 @@ const defaultVerbs = [
         base: "Problems arise when we ignore details.",
         past: "A problem arose yesterday during the meeting.",
         participle: "Many issues have arisen since last year."
-        }
-    },
-    { 
-        base: "awake", 
-        past: "awoke", 
-        participle: "awoken", 
-        meaning: "uyanmak", 
-        pronunciation: {
-        base: "ıueyk",
-        past: "ıuouk",
-        participle: "ıuokın"
-        },
-        image: "https://example.com/awake.jpg",
-        category: "learning",
-        sentences: {
-        base: "I awake early every morning.",
-        past: "I awoke at 6 AM yesterday.",
-        participle: "She has awoken suddenly in the night."
         }
     },
     { 
@@ -392,24 +374,6 @@ const defaultVerbs = [
             base: "I cut the paper with scissors.",
             past: "I cut my finger yesterday.",
             participle: "The tree has been cut."
-        }
-    },
-    { 
-        base: "deal", 
-        past: "dealt", 
-        participle: "dealt", 
-        meaning: "anlaşmak / uğraşmak", 
-        pronunciation: {
-            base: "diil",
-            past: "delt",
-            participle: "delt"
-        },
-        image: "https://example.com/deal.jpg",
-        category: "learning",
-        sentences: {
-            base: "I deal with many problems at work.",
-            past: "She dealt with the issue calmly.",
-            participle: "He has dealt with this before."
         }
     },
     { 
@@ -1040,24 +1004,6 @@ const defaultVerbs = [
         base: "I let him use my phone.",
         past: "She let the children play outside.",
         participle: "They have let us stay here."
-    }
-},
-{ 
-    base: "lie", 
-    past: "lied", 
-    participle: "lied", 
-    meaning: "yalan söylemek", 
-    pronunciation: {
-        base: "lay",
-        past: "layd",
-        participle: "layd"
-    },
-    image: "https://example.com/lie_lie.jpg",
-    category: "learning",
-    sentences: {
-        base: "I never lie to my friends.",
-        past: "He lied about his age.",
-        participle: "She has lied many times."
     }
 },
 { 
@@ -1961,24 +1907,6 @@ const defaultVerbs = [
     }
   },
   { 
-    base: "forecast", 
-    past: "forecast", 
-    participle: "forecast", 
-    meaning: "tahmin etmek", 
-    pronunciation: {
-      base: "forkast",
-      past: "forkast",
-      participle: "forkast"
-    },
-    image: "https://example.com/forecast.jpg",
-    category: "learning",
-    sentences: {
-      base: "They forecast heavy rain tomorrow.",
-      past: "The company forecast strong sales last year.",
-      participle: "The storm has been forecast for tonight."
-    }
-  },
-  { 
     base: "foresee", 
     past: "foresaw", 
     participle: "foreseen", 
@@ -2121,23 +2049,6 @@ const defaultVerbs = [
       past: "She mistook the door for the exit.",
       participle: "You have mistaken my intentions."
     }
-  },  { 
-    base: "arise", 
-    past: "arose", 
-    participle: "arisen", 
-    meaning: "ortaya çıkmak", 
-    pronunciation: {
-      base: "ı-rayz",
-      past: "ı-roz",
-      participle: "ı-rizın"
-    },
-    image: "https://example.com/arise.jpg",
-    category: "learning",
-    sentences: {
-      base: "Problems arise when people don’t listen.",
-      past: "A conflict arose yesterday.",
-      participle: "Many issues have arisen recently."
-    }
   },
   { 
     base: "awake", 
@@ -2155,150 +2066,6 @@ const defaultVerbs = [
       base: "I awake early every day.",
       past: "I awoke at 6 AM.",
       participle: "She has awoken already."
-    }
-  },
-  { 
-    base: "be", 
-    past: "was/were", 
-    participle: "been", 
-    meaning: "olmak", 
-    pronunciation: {
-      base: "bi",
-      past: "woz / wör",
-      participle: "bin"
-    },
-    image : "https://example.com/be.jpg",
-    category: "learning",
-    sentences: {
-      base: "I want to be happy.",
-      past: "I was tired yesterday.",
-      participle: "I have been there before."
-    }
-  },
-  { 
-    base: "bear", 
-    past: "bore", 
-    participle: "borne", 
-    meaning: "katlanmak, taşımak", 
-    pronunciation: {
-      base: "ber",
-      past: "bor",
-      participle: "born"
-    },
-    image: "https://example.com/bear.jpg",
-    category: "learning",
-    sentences: {
-      base: "I can’t bear the pain.",
-      past: "She bore the difficulties bravely.",
-      participle: "The weight has been borne by the team."
-    }
-  },
-  { 
-    base: "beat", 
-    past: "beat", 
-    participle: "beaten", 
-    meaning: "dövmek, yenmek", 
-    pronunciation: {
-      base: "biit",
-      past: "biit",
-      participle: "biitın"
-    },
-    image: "https://example.com/beat.jpg",
-    category: "learning",
-    sentences: {
-      base: "I beat the drum.",
-      past: "They beat the other team yesterday.",
-      participle: "He has beaten all records."
-    }
-  },
-  { 
-    base: "become", 
-    past: "became", 
-    participle: "become", 
-    meaning: "olmak, haline gelmek", 
-    pronunciation: {
-      base: "bikam",
-      past: "bikeym",
-      participle: "bikam"
-    },
-    image: "https://example.com/become.jpg",
-    category: "learning",
-    sentences: {
-      base: "I become nervous before exams.",
-      past: "He became a doctor last year.",
-      participle: "She has become very strong."
-    }
-  },
-  { 
-    base: "begin", 
-    past: "began", 
-    participle: "begun", 
-    meaning: "başlamak", 
-    pronunciation: {
-      base: "bigin",
-      past: "bigan",
-      participle: "bigʌn"
-    },
-    image: "https://example.com/begin.jpg",
-    category: "learning",
-    sentences: {
-      base: "I begin my work at 9 AM.",
-      past: "I began my work early today.",
-      participle: "My work has begun."
-    }
-  },
-  { 
-    base: "bend", 
-    past: "bent", 
-    participle: "bent", 
-    meaning: "bükmek, eğmek", 
-    pronunciation: {
-      base: "bend",
-      past: "bent",
-      participle: "bent"
-    },
-    image: "https://example.com/bend.jpg",
-    category: "learning",
-    sentences: {
-      base: "I bend the wire.",
-      past: "He bent the rules.",
-      participle: "The branch has bent under the weight."
-    }
-  },
-  { 
-    base: "bet", 
-    past: "bet", 
-    participle: "bet", 
-    meaning: "bahse girmek", 
-    pronunciation: {
-      base: "bet",
-      past: "bet",
-      participle: "bet"
-    },
-    image: "https://example.com/bet.jpg",
-    category: "learning",
-    sentences: {
-      base: "I bet 10 dollars on the game.",
-      past: "He bet on the wrong team.",
-      participle: "She has bet before."
-    }
-  },
-  { 
-    base: "bind", 
-    past: "bound", 
-    participle: "bound", 
-    meaning: "bağlamak", 
-    pronunciation: {
-      base: "baynd",
-      past: "baund",
-      participle: "baund"
-    },
-    image: "https://example.com/bind.jpg",
-    category: "learning",
-    sentences: {
-      base: "I bind the book with a rope.",
-      past: "They bound him tightly.",
-      participle: "He has been bound to secrecy."
     }
   },
   { 
