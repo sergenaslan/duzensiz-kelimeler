@@ -9,7 +9,7 @@ const defaultVerbsVeriler = [
             past: "bigan",
             participle: "bigʌn"
         },
-        image: "https://example.com/begin.jpg",
+        image: "https://www.bloomberg.com/graphics/2017-fast-and-furious/img/ss-racing-f_.jpg",
         category: "learning",
         sentences: {
             base: "I begin my work at 9 AM.",
@@ -27,7 +27,7 @@ const defaultVerbsVeriler = [
             past: "brot",
             participle: "bawt"
         },
-        image: "https://example.com/bring.jpg",
+        image: "https://images.wagwalkingweb.com/media/training_guides/bring-you-something/hero/bring-you-something.jpg?auto=compress&w=768&h=432",
         category: "learning",
         sentences: {
             base: "I bring my lunch to work.",
@@ -45,7 +45,7 @@ const defaultVerbsVeriler = [
             past: "bawt",
             participle: "bawt"
         },
-        image: "https://example.com/buy.jpg",
+        image: "https://www.motoexpress.com.tr/idea/jx/40/myassets/categories/1016/riskli-urun-86937%20(1).webp?revision=1745400594",
         category: "learned",
         sentences: {
             base: "I buy a book.",
@@ -63,7 +63,7 @@ const defaultVerbsVeriler = [
             past: "kawt",
             participle: "kawt"
         },
-        image: "https://example.com/catch.jpg",
+        image: "https://images.stockcake.com/public/2/9/c/29cf66c8-dafb-4a8c-9365-98309be275eb_large/young-baseball-player-stockcake.jpg",
         category: "learning",
         sentences: {
             base: "I catch the bus every day.",
@@ -81,7 +81,7 @@ const defaultVerbsVeriler = [
             past: "çouz",
             participle: "çozın"
         },
-        image: "https://example.com/choose.jpg",
+        image: "https://static.vecteezy.com/system/resources/previews/000/216/982/non_2x/choose-the-profession-vector.jpg",
         category: "learned",
         sentences: {
             base: "I choose a movie.",
@@ -99,7 +99,7 @@ const defaultVerbsVeriler = [
             past: "keym",
             participle: "kam"
         },
-        image: "https://example.com/come.jpg",
+        image: "https://cdn.dsmcdn.com/mnresize/620/920/ty1730/prod/QC_PREP/20250819/14/f7eab2e8-5a7b-38cd-bb51-976761f65bd4/1_org_zoom.jpg",
         category: "learning",
         sentences: {
             base: "I come home at 6 PM.",
